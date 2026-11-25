@@ -1,0 +1,62 @@
+{
+  "attivita": [
+    {
+      "tipo": "coltura",
+      "nome": "Mais",
+      "prezzo_kg": 0.5,
+      "costi": [
+        {
+          "nome": "semi",
+          "importo": 120.0
+        },
+        {
+          "nome": "manodopera",
+          "importo": 150.0
+        }
+      ],
+      "superficie_m2": 1000.0,
+      "resa_kg_m2": 0.8
+    },
+    {
+      "tipo": "allevamento",
+      "nome": "Tilapia",
+      "prezzo_kg": 5.0,
+      "costi": [
+        {
+          "nome": "avannotti",
+          "importo": 150.0
+        },
+        {
+          "nome": "mangime",
+          "importo": 350.0
+        }
+      ],
+      "animali_iniziali": 500,
+      "percentuale_persi": 10.0,
+      "peso_medio_kg": 0.4
+    }
+  ],
+  "scenari": [
+    {
+      "nome": "Prezzo basso",
+      "nome_attivita": "Tilapia",
+      "prezzo_kg": 4.0,
+      "resa_kg_m2": null,
+      "percentuale_persi": null
+    },
+    {
+      "nome": "Perdite alte",
+      "nome_attivita": "Tilapia",
+      "prezzo_kg": null,
+      "resa_kg_m2": null,
+      "percentuale_persi": 30.0
+    },
+    {
+      "nome": "Siccita'",
+      "nome_attivita": "Mais",
+      "prezzo_kg": null,
+      "resa_kg_m2": 0.4,
+      "percentuale_persi": null
+    }
+  ]
+}
