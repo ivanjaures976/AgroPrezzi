@@ -27,7 +27,7 @@ d'ambiente AGROPREZZI_UTENTI="utente1:password1,utente2:password2".
 | modelli.py | classi Attivita, Coltura, Allevamento |
 | scenari.py | classe Scenario, confronto e statistiche |
 | database.py | sqlite3: tabelle, CRUD, commit/rollback |
-| utenti.py | 2 utenti predefiniti, password con hash |
+| utenti.py | creazione utenti al primo avvio, password con hash |
 | archivio.py | file JSON ed esportazione CSV |
 | stampa.py | PDF con reportlab |
 
