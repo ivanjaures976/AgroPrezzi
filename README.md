@@ -4,7 +4,7 @@ Calcolatore di costi, ricavi e margine per piccole attività agricole
 (colture e allevamenti). Prova finale – Programmazione Python, ITS ICT Piemonte.
 
 ## Requisiti
-- Python 3.10 o superiore (Ubuntu/Linux)
+- Python 3.10 o superiore
 - `tkinter` per la GUI: `sudo apt install python3-tk`
 - `reportlab` per i PDF: `pip install reportlab`
 - sqlite3, json, csv: già inclusi in Python
@@ -18,6 +18,9 @@ Le credenziali non sono nel repository. Al primo avvio il programma chiede
 di creare gli utenti da terminale. In alternativa si può usare la variabile
 d'ambiente AGROPREZZI_UTENTI="utente1:password1,utente2:password2".
 
+## Test
+    python -m unittest -v test_modelli
+
 ## File
 | File | Compito |
 |------|---------|
@@ -30,6 +33,7 @@ d'ambiente AGROPREZZI_UTENTI="utente1:password1,utente2:password2".
 | utenti.py | creazione utenti al primo avvio, password con hash |
 | archivio.py | file JSON ed esportazione CSV |
 | stampa.py | PDF con reportlab |
+| test_modelli.py | test unitari su modelli e scenari |
 
 ## Dati
 - Il database è `agroprezzi.db` (creato al primo avvio).
