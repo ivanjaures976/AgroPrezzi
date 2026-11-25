@@ -1,0 +1,5 @@
+agroprezzi.db
+dati.json
+esportazioni/
+__pycache__/
+*.pyc
